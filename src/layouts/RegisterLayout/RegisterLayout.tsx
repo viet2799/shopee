@@ -1,9 +1,9 @@
-import React from 'react'
+interface props {
+  children: React.ReactNode
+}
 
-const RegisterLayout = () => {
-  return (
-    <div>RegisterLayout</div>
-  )
+const RegisterLayout = ({ children }: props) => {
+  return <div>{children}</div>
 }
 
 export default RegisterLayout

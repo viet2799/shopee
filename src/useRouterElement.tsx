@@ -18,4 +18,5 @@ export default function useRouterElement() {
       element: <Register />
     }
   ])
+  return router
 }
